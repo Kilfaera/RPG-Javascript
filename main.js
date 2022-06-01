@@ -1,8 +1,4 @@
-import{hola} from "./funciones.js"
-
 let ighealth, igattack, igarmor, igenemyattack, igenemyarmor, igenemyhealth, enemyhealth, enemyattack, enemyarmor, igopc=1, critical, damage, armorflag
-
-hola(hola);
 
 console.log("Bienvenido a ULTIMATE TEXT BATTLE SIMULATOR ++ V 0.1")
 let playername = prompt("Digita el nombre que deseas para tu personaje: ")
