@@ -1,4 +1,6 @@
+
 let ighealth, igattack, igarmor, igenemyattack, igenemyarmor, igenemyhealth, enemyhealth, enemyattack, enemyarmor, igopc=1, critical, damage, armorflag
+
 
 console.log("Bienvenido a ULTIMATE TEXT BATTLE SIMULATOR ++ V 0.1")
 let playername = prompt("Digita el nombre que deseas para tu personaje: ")
@@ -80,7 +82,6 @@ function enemyturn(){
         damage = Math.floor(igenemyattack/(1+igarmor/100))
         ighealth = Math.floor(ighealth-damage)
         console.log(`El enemigo te hizo ${damage} de daño`)
-        bonusenemyarmor;
         armorflag=1;
         return ighealth
 }
