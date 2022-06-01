@@ -171,10 +171,7 @@ if (igenemyhealth>0)
 
 
     }while(!(ighealth<=0 | igenemyhealth<=0));
-}else{
-    console.log("¡OVERKILL!")
-    }
-
+}
     if(ighealth<=0){
         console.log("Has muerto... ¡¡EN EL TUTORIAL!! JAJAJAJAJAJ")
         console.log("")
